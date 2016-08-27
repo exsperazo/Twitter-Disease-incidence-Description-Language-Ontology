@@ -1,0 +1,837 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/xtinktion/ontologies/2016/7/untitled-ontology-2"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/xtinktion/ontologies/2016/7/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/xtinktion/ontologies/2016/7/untitled-ontology-2#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Abstract_Objects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anatomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beliefs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biological_Substance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Care_Provider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disease_Events"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Events"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Excretory_Product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food_Product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General_Events"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Government"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inanimate_Entities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Linguistic_Elements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Living_Entities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Objects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Other_temporal_references"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pathogen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#People"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Population"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Real_Objects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Substance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Window"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Advise"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Affection"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Analyze"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Apologize"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Calls"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Causality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Celebrate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Change"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Comaraderie"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Commencement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Confirm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Continuance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Cover_up"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Detect"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Disperse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Displacement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Disrupt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Familial_Relationship"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Get"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Give"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Gratitude"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Immune_Response"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Incidence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Monitor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Prevention"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Punish"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Quantize"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Refute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Report"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Result"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Sympathy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Termination"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Test"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Travel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Treatment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Ability"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Activity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Afraid"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Agency"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Awareness"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Composition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Degree"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Demography"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Discrete_Quantity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Duration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Emotional_States"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#End_Time"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Happy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Health"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Immunity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Inability"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Magnitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Morbidity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Odor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Order"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Periodicity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Predisposition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Presentation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Start_Time"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#State"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Taste"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Tempo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Texture"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Urban-rural_and_socio-economic"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Visual"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ignorance"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Abstract_Objects"/>
+        <Class IRI="#Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anatomy"/>
+        <Class IRI="#Living_Entities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beliefs"/>
+        <Class IRI="#Abstract_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biological_Substance"/>
+        <Class IRI="#Substance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Care_Provider"/>
+        <Class IRI="#People"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deity"/>
+        <Class IRI="#Living_Entities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disease_Events"/>
+        <Class IRI="#Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Events"/>
+        <Class IRI="#Abstract_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Excretory_Product"/>
+        <Class IRI="#Substance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food_Product"/>
+        <Class IRI="#Substance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_Events"/>
+        <Class IRI="#Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Government"/>
+        <Class IRI="#People"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inanimate_Entities"/>
+        <Class IRI="#Real_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Linguistic_Elements"/>
+        <Class IRI="#Abstract_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Living_Entities"/>
+        <Class IRI="#Real_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="#Inanimate_Entities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Other_temporal_references"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pathogen"/>
+        <Class IRI="#Living_Entities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <Class IRI="#People"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#People"/>
+        <Class IRI="#Living_Entities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Population"/>
+        <Class IRI="#People"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Real_Objects"/>
+        <Class IRI="#Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Substance"/>
+        <Class IRI="#Inanimate_Entities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time"/>
+        <Class IRI="#Abstract_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vector"/>
+        <Class IRI="#Living_Entities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Window"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Commencement"/>
+        <ObjectProperty IRI="#Incidence"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Continuance"/>
+        <ObjectProperty IRI="#Incidence"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Termination"/>
+        <ObjectProperty IRI="#Incidence"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Advise"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Affection"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Analyze"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Apologize"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Calls"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Causality"/>
+        <Class IRI="#Pathogen"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Celebrate"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Change"/>
+        <Class IRI="#Objects"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Comaraderie"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Commencement"/>
+        <Class IRI="#Events"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Confirm"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Continuance"/>
+        <Class IRI="#Events"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Cover_up"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Detect"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Disperse"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Disperse"/>
+        <Class IRI="#Vector"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Displacement"/>
+        <Class IRI="#Objects"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Disrupt"/>
+        <Class IRI="#Events"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Familial_Relationship"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Get"/>
+        <Class IRI="#Living_Entities"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Give"/>
+        <Class IRI="#Living_Entities"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Gratitude"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Immune_Response"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Incidence"/>
+        <Class IRI="#Events"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Location"/>
+        <Class IRI="#Objects"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Monitor"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Prevention"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Punish"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Quantize"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Refute"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Report"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Result"/>
+        <Class IRI="#Events"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Sympathy"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Termination"/>
+        <Class IRI="#Events"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Test"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Travel"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Treatment"/>
+        <Class IRI="#Care_Provider"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Advise"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Affection"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Analyze"/>
+        <Class IRI="#Objects"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Apologize"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Calls"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Causality"/>
+        <Class IRI="#Disease_Events"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Celebrate"/>
+        <Class IRI="#Events"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Change"/>
+        <Class IRI="#Objects"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Comaraderie"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Commencement"/>
+        <Class IRI="#Time"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Confirm"/>
+        <Class IRI="#Events"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Continuance"/>
+        <Class IRI="#Time"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Cover_up"/>
+        <Class IRI="#Events"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Detect"/>
+        <Class IRI="#Events"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Disperse"/>
+        <Class IRI="#Pathogen"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Displacement"/>
+        <Class IRI="#Objects"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Disrupt"/>
+        <Class IRI="#Events"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Familial_Relationship"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Get"/>
+        <Class IRI="#Living_Entities"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Give"/>
+        <Class IRI="#Living_Entities"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Gratitude"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Immune_Response"/>
+        <Class IRI="#Pathogen"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Incidence"/>
+        <Class IRI="#Time"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Location"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Monitor"/>
+        <Class IRI="#Disease_Events"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Prevention"/>
+        <Class IRI="#Disease_Events"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Punish"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Quantize"/>
+        <Class IRI="#Objects"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Refute"/>
+        <Class IRI="#Events"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Report"/>
+        <Class IRI="#Events"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Result"/>
+        <Class IRI="#Events"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Sympathy"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Termination"/>
+        <Class IRI="#Time"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Test"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Travel"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Treatment"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Afraid"/>
+        <DataProperty IRI="#Emotional_States"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Degree"/>
+        <DataProperty IRI="#Magnitude"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Discrete_Quantity"/>
+        <DataProperty IRI="#Magnitude"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Happy"/>
+        <DataProperty IRI="#Emotional_States"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Sad"/>
+        <DataProperty IRI="#Emotional_States"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Activity"/>
+        <Class IRI="#People"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Agency"/>
+        <Class IRI="#Disease_Events"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Awareness"/>
+        <Class IRI="#People"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Composition"/>
+        <Class IRI="#Real_Objects"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Demography"/>
+        <Class IRI="#People"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Duration"/>
+        <Class IRI="#Events"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Emotional_States"/>
+        <Class IRI="#People"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#End_Time"/>
+        <Class IRI="#Events"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Health"/>
+        <Class IRI="#People"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Immunity"/>
+        <Class IRI="#People"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Inability"/>
+        <Class IRI="#People"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Magnitude"/>
+        <Class IRI="#Objects"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Morbidity"/>
+        <Class IRI="#People"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Odor"/>
+        <Class IRI="#Real_Objects"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Order"/>
+        <Class IRI="#Objects"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Periodicity"/>
+        <Class IRI="#Events"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Start_Time"/>
+        <Class IRI="#Events"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Taste"/>
+        <Class IRI="#Real_Objects"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Tempo"/>
+        <Class IRI="#Events"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Texture"/>
+        <Class IRI="#Real_Objects"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Urban-rural_and_socio-economic"/>
+        <Class IRI="#People"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Visual"/>
+        <Class IRI="#Real_Objects"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ignorance"/>
+        <Class IRI="#People"/>
+    </DataPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
