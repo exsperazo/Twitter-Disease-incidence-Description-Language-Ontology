@@ -1,0 +1,1945 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#"
+     xml:base="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Ability -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Ability"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Activity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Activity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#People"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Afraid -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Afraid">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Emotional_state"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Agency -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Agency"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Awareness -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Awareness">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#People"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Composition -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Composition">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Real_Objects"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Degree -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Degree">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Magnitude"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Demography -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Demography">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#People"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Description"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Discrete_Quantity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Discrete_Quantity">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Magnitude"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Duration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Duration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Emotional_state -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Emotional_state">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#People"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#End_Time -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#End_Time"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Happy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Happy">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Emotional_state"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Health -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Health">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#People"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Immunity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Immunity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#People"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Inability -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Inability">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#People"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Magnitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Magnitude">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Objects"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Morbidity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Morbidity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#People"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Odor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Odor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Real_Objects"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Order -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Order">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Objects"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Periodicity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Periodicity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Predisposition -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Predisposition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Presentation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Presentation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Sad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Sad">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Emotional_state"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Start_Time -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Start_Time"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#State -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#State"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Taste -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Taste">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Real_Objects"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Tempo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Tempo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Texture -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Texture">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Real_Objects"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Urban-rural_and_socio-economic -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Urban-rural_and_socio-economic">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#People"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Visual -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Visual">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Real_Objects"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#ignorance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#ignorance">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#People"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Abstract_Objects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Abstract_Objects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Adjectives -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Adjectives">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#root"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Advisory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Advisory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_interactions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Affection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Affection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_interactions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Apologetic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Apologetic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_interactions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Biological_Substance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Biological_Substance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Body -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Body">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Real_Objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#CC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#CC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#root"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#CD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#CD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#root"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Calls -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Calls">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_interactions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Change_Tempo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Change_Tempo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#event_descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#DT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#DT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Descriptor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Descriptor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Abstract_Objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Descriptors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Descriptors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Adjectives"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Disease_ecology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Disease_ecology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Events"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Disease_event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Disease_event">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Events"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#EX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#EX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Event_state -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Event_state">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Events -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Events">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Abstract_Objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#FW -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#FW">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#root"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Government -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Government">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Have -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Have">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Miscellaneous_objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Health_state -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Health_state">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_Actions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_Actions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#general_actions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_interactions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_interactions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_Actions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_interventions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_interventions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_Actions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_state -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_state">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#root"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Inanimate_Entities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Inanimate_Entities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Real_Objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#LS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#LS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#root"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Abstract_Objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Miscellaneous_objects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Miscellaneous_objects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Abstract_Objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#NNP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#NNP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Nouns -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Nouns">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#root"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Objects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Objects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#root"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Other_temporal_references -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Other_temporal_references">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Time"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#temporal_window"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#PDT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#PDT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#POS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#POS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Possessives"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#PRP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#PRP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#PRP$ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#PRP$">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Possessives"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Pathogen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Pathogen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#organisms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#People -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#People">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#organisms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Possessives -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Possessives">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#RB -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#RB">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Adjectives"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#RP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#RP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Real_Objects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Real_Objects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#SYM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#SYM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#root"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Substance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Substance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Inanimate_Entities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Sympathy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Sympathy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_interactions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Abstract_Objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Trend_descriptor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Trend_descriptor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#URL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#URL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#root"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#USR -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#USR">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#VB -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#VB">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Verbs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#VBD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#VBD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Verbs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#VBG -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#VBG">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Verbs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#VBN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#VBN">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Verbs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#VBP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#VBP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Verbs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#VBZ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#VBZ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Verbs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Verbs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Verbs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#root"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#WP$ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#WP$">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Possessives"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#ability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#ability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#about -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#about">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#activity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_Actions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#against -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#against">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#agency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#agency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#agent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Real_Objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#along -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#along">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_Actions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#anger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#anger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#emotional_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#attempt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#attempt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#awareness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#awareness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_state"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#ignorance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#being -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#being">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#biological_action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#biological_action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#general_actions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#biological_product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#biological_product">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#body_function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#body_function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_Actions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#but -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#but">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#cc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#causality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#causality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#cc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#cc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#celebratory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#celebratory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_Actions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#change -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#change">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#general_actions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#comerederie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#comerederie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_interactions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#commencement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#commencement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Event_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#concerning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#concerning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#confirmation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#confirmation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_Actions"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#refute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#consequential -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#consequential">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Events"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#considering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#considering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#continuance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#continuance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Event_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#coverup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#coverup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_Actions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#decomposition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#decomposition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#biological_action"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#demonstratives -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#demonstratives">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#DT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#description -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#description">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#despite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#despite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#detect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#detect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_Actions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#diety -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#diety">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#organisms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#disability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#disability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#dispersal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#dispersal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Disease_ecology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#down -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#down">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#duration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#duration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#event_descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#either -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#either">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#demonstratives"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#emotional_state -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#emotional_state">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#ending -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#ending">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Event_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#environment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#evaluative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#evaluative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#event_descriptor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#event_descriptor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#exclamative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#exclamative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#expletive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#expletive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#extent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#extent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#fall -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#fall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Miscellaneous_objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#fear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#fear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#emotional_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#feeling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#feeling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_Actions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#following -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#following">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#frequency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#frequency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#event_descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#general_actions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#general_actions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Events"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#get -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#get">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#general_actions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#give -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#give">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#general_actions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#go -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#go">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Miscellaneous_objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#gratitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#gratitude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_interactions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#health -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#health">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Health_state"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#morbidity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#health_facility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#health_facility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Inanimate_Entities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#ht -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#ht">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#root"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#humour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#humour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#ignorance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#ignorance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#immune_response -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#immune_response">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Disease_ecology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#immunity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#immunity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Health_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#improbability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#improbability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#probability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#incidence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#incidence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Disease_event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#increase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#increase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Trend_descriptor"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#reduce"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#interjection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#interjection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#interrogative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#interrogative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#root"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#into -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#into">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#joy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#joy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#emotional_state"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#sorrow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#like -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#like">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Miscellaneous_objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#locative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#locative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Inanimate_Entities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#magnitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#magnitude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#mass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#mass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#physical_descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#md -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#md">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Verbs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#medicalstaff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#medicalstaff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#method -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#method">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#monitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#monitor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_interventions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#morbidity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#morbidity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Health_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#mortality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#mortality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#need -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#need">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#negative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#negative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Miscellaneous_objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#negator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#negator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#negextent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#negextent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#nutrition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#nutrition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#obligative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#obligative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#odor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#odor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#physical_descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#off -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#off">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#on"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#on -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#on">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#opinion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#opinion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Abstract_Objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#order -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#order">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#organisms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#organisms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Nouns"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Real_Objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#physical_descriptor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#physical_descriptor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#positive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#positive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Miscellaneous_objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#predisposition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#predisposition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Health_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#presentation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#presentation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#description"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#preventive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#preventive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_interventions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#probability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#probability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#punishment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#punishment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_interactions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#quantisation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#quantisation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#recovery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#recovery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Trend_descriptor"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#worsen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#reduce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#reduce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Trend_descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#refute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#refute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_Actions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#rel_position -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#rel_position">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#relationships -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#relationships">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#reports -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#reports">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_Actions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#responsibility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#responsibility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#result -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#result">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#root -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#root"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#so -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#so">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#cc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#sorrow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#sorrow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#emotional_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#stasis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#stasis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Trend_descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#state -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#state">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Abstract_Objects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#taste -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#taste">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#physical_descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#temporal_window -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#temporal_window">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_interventions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#texture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#texture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#physical_descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#than -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#than">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#that -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#that">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#demonstratives"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#this -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#this">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#demonstratives"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#to -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#to">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#travel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#travel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_Actions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#treatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#treatment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Human_interventions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#uh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#uh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#root"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#under -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#under">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#underneath -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#underneath">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#up -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#up">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#urban_rural -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#urban_rural">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#vand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#vand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#cc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#vas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#vas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#vfor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#vfor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#vfrom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#vfrom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#victim -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#victim">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#vin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#vin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#visual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#visual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#physical_descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#vor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#vor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#cc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#vwith -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#vwith">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#IN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#wdt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#wdt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#interrogative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#wh-determiner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#wh-determiner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#wh-pronoun -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#wh-pronoun">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#worsen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#worsen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Trend_descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#wp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#wp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#interrogative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#wrb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#wrb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#Linguistic_Elements"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#RB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#yet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#yet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xtinktion/ontologies/2016/7/Disease_concepts#cc"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
